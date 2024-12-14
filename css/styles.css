@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  background-colorcolor: #ffffff;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
   color: #434455;
 }
 
@@ -18,19 +18,23 @@ button {
   cursor: pointer;
 }
 
+address {
+  font-style: normal;
+}
+
 /* #region Header */
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 .logo-style {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-item-link {
@@ -60,6 +64,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  text-transform: capitalize;
 }
 
 .solutions-button {
@@ -68,8 +73,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
 }
 
 .solutions-button:hover,
@@ -93,7 +98,7 @@ button {
 }
 
 .team {
-  background: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .goal-title {
@@ -141,6 +146,15 @@ button {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
