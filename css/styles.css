@@ -97,10 +97,6 @@ address {
   color: #404bbf;
 }
 
-.team {
-  background-color: #f4f4fd;
-}
-
 .goal-title {
   font-weight: 500;
   font-size: 20px;
@@ -126,6 +122,10 @@ address {
 }
 
 .team {
+  background-color: #f4f4fd;
+}
+
+.team-card-item {
   background-color: #ffffff;
 }
 
