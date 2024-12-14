@@ -98,7 +98,7 @@ address {
 }
 
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .goal-title {
@@ -113,6 +113,7 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .our-team {
@@ -124,6 +125,10 @@ address {
   color: #2e2f42;
 }
 
+.team {
+  background-color: #ffffff;
+}
+
 .team-member {
   font-weight: 500;
   font-size: 20px;
@@ -133,7 +138,7 @@ address {
   color: #2e2f42;
 }
 
-.team-member-proffesions {
+.team-member-professions {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
